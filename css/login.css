@@ -1,0 +1,116 @@
+@charset "utf-8";
+/*CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	width: 100%;
+    height: 100%;
+    background-color: #f2edf3;
+}
+body{
+	font-family:"微软雅黑";
+}
+img{
+	display: block;
+	border:none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+    background-color: #f2edf3;
+}
+input{
+    border:none;
+}
+.loginbox{
+    width: 30%;
+    background-color: #fff;
+    margin:50px auto;
+}
+.conbox{
+    width: 80%;
+    margin:auto;
+}
+.logo{
+    width: 100%;
+    height:80px;
+}
+.logo img{
+    display: inline-block;
+    width: 150px;
+    height: 33px;
+    margin-top:40px;
+}
+.conbox span h4:nth-child(1){
+    margin-top:30px;
+}
+.conbox span h4:nth-child(2){
+    font-weight: 100;
+    margin-top:7px;
+}
+.in1,.fb{
+    width: 100%;
+    height: 54px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #f8f8fb;
+    border:1px solid #ebedf2;
+    border-radius: 0px;
+    text-indent: 30px;
+}
+.in3{
+    background: linear-gradient(to right, #da8cff, #9a55ff);
+}
+.keep{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.agree1{
+    vertical-align: middle;
+}
+.agree2{
+    vertical-align: middle;
+    white-space:wrap;
+}
+.keep input{
+    width: 20px;
+    height: 20px;
+    border:1px solid #9a55ff;
+    background-color: #fff;
+    margin-right: 6px;
+    line-height: 20px;
+}
+.fbbox{
+    text-align: center;
+}
+.fb{
+    background: #2d4278;
+    line-height: 54px;
+}
+.fw{
+    display: inline-block;
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:900px){
+    .loginbox{
+        width: 90%;
+    }
+    .conbox{
+        width: 90%;
+    }
+}
